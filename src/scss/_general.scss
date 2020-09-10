@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+$blue: #1da1f2;
+$font-family: "Roboto", sans-serif;
+$border: #38444d;
+$cardbg: #192734;
+
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: $font-family;
+  background: #15202b;
+  color: #c7c6c6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.btn {
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
